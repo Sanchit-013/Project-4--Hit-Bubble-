@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(137, 226, 137);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel{
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ptop{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(46, 139, 91);
+    padding: 5px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 800;
+
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.box{
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+#pbtm{
+    width: 100%;
+    gap: 5px;
+    height: calc(100% - 70px);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.bubble{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(252, 165, 4);
+    border-radius: 50%;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bubble:hover{
+    background-color: rgb(232, 114, 4);
+}
